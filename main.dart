@@ -8,11 +8,37 @@ main() {
 }
 
 // 
-*/
+
 
 main(){
   var firstname='shovo';
 
-  String lastname='xhode';
+  String lastname='ahad';
   print('My name is $firstname $lastname');
+  print('My name is ${firstname.toUpperCase()} ${lastname.toUpperCase()}');
+
+  print(firstname + ' ' + lastname);  
+
 }
+
+
+
+
+main() {
+  var a = 10;
+  var b = 20;
+  var sum = a + b;
+  print('The sum of $a and $b is $sum');
+
+}
+
+import 'dart:core';
+import 'dart:math';
+
+main() {
+  var random = Random();
+  var randomNumber = random.nextInt(100); // Generates a random number between 0 and 99
+  print('Random number: $randomNumber');
+}
+*/ 
+
