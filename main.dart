@@ -50,11 +50,31 @@ main() {
   print('Hello, $name!');
 }
 
-*/ 
+
 
 import 'dart:io';
 main(){
   stdout.writeln('Enter your name:');
   String? name = stdin.readLineSync();
   stdout.writeln('Hello, $name!');
+}
+
+
+
+/// this is called docmentation comment
+
+
+int amount = 1000;
+var amount2 = 2000;
+
+
+print('The amount is $amount and the second amount is $amount2');
+*/
+
+void main() {
+  double pi = 3.14;
+  var radius = 5;
+  var area = pi * radius * radius;
+
+  print('The area of the circle with radius $radius is $area');
 }
