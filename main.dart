@@ -69,7 +69,7 @@ var amount2 = 2000;
 
 
 print('The amount is $amount and the second amount is $amount2');
-*/
+
 
 void main() {
   double pi = 3.14;
@@ -77,4 +77,14 @@ void main() {
   var area = pi * radius * radius;
 
   print('The area of the circle with radius $radius is $area');
+
 }
+
+*/ 
+
+void main(){
+  dynamic  name = 'Shovo';
+  print('My name is $name');
+}
+
+
