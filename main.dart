@@ -40,5 +40,21 @@ main() {
   var randomNumber = random.nextInt(100); // Generates a random number between 0 and 99
   print('Random number: $randomNumber');
 }
+
+
+
+import 'dart:io';
+main() {
+  print('Enter your name:');
+  String? name = stdin.readLineSync();
+  print('Hello, $name!');
+}
+
 */ 
 
+import 'dart:io';
+main(){
+  stdout.writeln('Enter your name:');
+  String? name = stdin.readLineSync();
+  stdout.writeln('Hello, $name!');
+}
