@@ -200,3 +200,37 @@ void main(){
 */ 
 
 
+void main(){
+
+  int num = 10;
+  num += 5; // Equivalent to num = num + 5
+  print(num); // Output: 15
+
+
+  if (num == 0 || num == 15) {
+    print('The number is either 0 or 15');
+  } else {
+    print('The number is neither 0 nor 15');
+  }
+
+
+  num = 100 ;
+  num *= 2 ;
+  print(num); // Output: 200
+
+
+  ++num; // Equivalent to num = num + 1
+  print(num); // Output: 201
+
+
+  num--; // Equivalent to num = num - 1
+  print(num); // Output: 200
+
+  num++;
+  print(num); // Output: 201
+  --num;
+  print(num); // Output: 200
+
+}
+
+
