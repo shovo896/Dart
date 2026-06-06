@@ -244,8 +244,7 @@ void main() {
 
   print(firstname + ' ' + lastname);
 
-}
-
+} 
 
 
 void main(){
@@ -255,8 +254,33 @@ void main(){
   } else {
     print('The number is not between 200 and 300');
   }
+  else if (num == 200) {
+    print('The number is exactly 200');
+  } else {
+    print('The number is not exactly 200');
+  }
 }
 */ 
+class Num {
+  int num =100 ;
+
+}
+main (){
+  var n = Num();
+  print(n.num);
+
+  int number ;
+  if (n != null ){
+    number = n.num ;
+  } else {
+    number = 0 ;
+
+  }
+  print(number);
+}
+
+
+
 
 
 
