@@ -115,5 +115,15 @@ main(){
 */ 
 
 
+main(){
+  var s1=''''
+  This is a multi-line string.
+  It can span multiple lines without the need for escape characters.'''
 
+  var s2="""This is another way to create a multi-line string.
+  It also allows for multi-line text without the need for escape characters.""";
+
+  print(s1);
+  print(s2);
+}
 
