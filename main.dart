@@ -301,7 +301,6 @@ void main(){
   print(number ??= 100);
   print(number);
 }
-*/ 
 
 
 
@@ -311,6 +310,18 @@ void main(){
   var result = x %2 ==0 ? 'Even' : 'Odd';
   print(result);
 }
+
+*/
+void main(){
+  var x = 100 ;
+  if (x is int){
+    print('integer');
+    
+  }
+}
+
+
+
 
 
 
