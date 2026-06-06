@@ -311,13 +311,34 @@ void main(){
   print(result);
 }
 
-*/
 void main(){
-  var x = 100 ;
+  var x = 100.00 ;
   if (x is int){
     print('integer');
-    
+
   }
+}
+
+*/ 
+void main(){
+
+  int number = 100 ;
+  if (number %2 ==0){
+    print('Even');
+  } 
+  else if (number % 3 ==0){
+    print('Odd');
+  }
+  else {
+    print('Odd');
+  
+  }
+
+
+
+
+
+
 }
 
 
