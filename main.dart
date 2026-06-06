@@ -281,7 +281,7 @@ main (){
 
 */ 
 
-class num {
+class NumberHolder {
   int num =100 ;
 
 }
@@ -293,7 +293,6 @@ main (){
   number = n?.num ?? 0 ;
   print(number);
 }
-
 
 
 
