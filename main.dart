@@ -112,7 +112,7 @@ main(){
   print(str);
 }
 
-*/ 
+
 
 
 main(){
@@ -125,5 +125,17 @@ main(){
 
   print(s1);
   print(s2);
+}
+*/ 
+
+main(){
+  var one = int.parse('10');
+  assert(one == 10);
+  print(one);
+
+
+  var onePointOne = double.parse('10.1');
+  assert(onePointOne == 10.1);
+  print(onePointOne);
 }
 
