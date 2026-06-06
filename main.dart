@@ -197,7 +197,7 @@ void main(){
   print(num);
 }
 
-*/ 
+
 
 
 void main(){
@@ -233,4 +233,22 @@ void main(){
 
 }
 
+
+
+void main() {
+  var firstname='shovo';
+
+  String lastname='ahad';
+  print('My name is $firstname $lastname');
+  print('My name is ${firstname.toUpperCase()} ${lastname.toUpperCase()}');
+
+  print(firstname + ' ' + lastname);
+
+}
+
+*/ 
+
+void main(){
+  
+}
 
