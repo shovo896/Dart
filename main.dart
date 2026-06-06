@@ -177,5 +177,26 @@ main(){
   print(num); // This will cause an error because 'num' is not initialized
 }
 
+
+
+void main(){
+  int num = 10+22 ;
+  num = num + 5;
+  print(num);
+
+  num = num - 3;
+  print(num);
+
+  num = num * 2;
+  print(num);
+
+  num = num ~/ 3;
+  print(num);
+
+  num = num % 5;
+  print(num);
+}
+
 */ 
+
 
