@@ -101,5 +101,6 @@ void main(){
 */ 
 void main(){
   var s =r'In this raw string , not even \n will be treated as a newline character';
+  print(s);
 }
 
