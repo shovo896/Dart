@@ -260,7 +260,7 @@ void main(){
     print('The number is not exactly 200');
   }
 }
-*/ 
+
 class Num {
   int num =100 ;
 
@@ -271,13 +271,16 @@ main (){
 
   int number ;
   if (n != null ){
-    number = n.num ;
+    number = n.num ;    // n ?.num
   } else {
     number = 0 ;
 
   }
   print(number);
 }
+
+*/ 
+
 
 
 
