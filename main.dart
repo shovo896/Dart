@@ -80,11 +80,23 @@ void main() {
 
 }
 
-*/ 
 
 void main(){
   dynamic  name = 'Shovo';
   print('My name is $name');
+}*/ 
+
+void main(){
+  var vars1='single quotes work well for string literals that contain double quotes, such as "Hello, World!"';
+  var vars2="double quotes work well for string literals that contain single quotes, such as 'Hello, World!'";
+  var vars3='''triple single quotes can be used for multi-line strings, allowing you to create strings that span multiple lines without the need for escape characters.''';
+  var vars4='It\'s important to choose the appropriate type of quotes based on the content of your string to avoid syntax errors and improve readability.';
+  var vars5="It's even easier to use delimiter";
+  print(vars1);
+  print(vars2);
+  print(vars3);
+  print(vars4);
+  print(vars5);
 }
 
 
