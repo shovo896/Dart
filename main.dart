@@ -249,6 +249,11 @@ void main() {
 */ 
 
 void main(){
-  
+  int num = 200 ;
+  if (num >200 && num < 300) {
+    print('The number is between 200 and 300');
+  } else {
+    print('The number is not between 200 and 300');
+  }
 }
 
