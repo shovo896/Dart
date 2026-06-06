@@ -98,9 +98,22 @@ void main(){
   print(vars4);
   print(vars5);
 }
-*/ 
+
 void main(){
   var s =r'In this raw string , not even \n will be treated as a newline character';
   print(s);
 }
+
+
+
+main(){
+  var age = 25;
+  var str='My age is $age years old';
+  print(str);
+}
+
+*/ 
+
+
+
 
