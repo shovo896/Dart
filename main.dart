@@ -126,7 +126,7 @@ main(){
   print(s1);
   print(s2);
 }
-*/ 
+
 
 main(){
   var one = int.parse('10');
@@ -138,4 +138,14 @@ main(){
   assert(onePointOne == 10.1);
   print(onePointOne);
 }
+*/ 
 
+
+// showing value
+
+
+main(){
+  String pi=3.1416.toStringAsFixed(2);
+  assert(pi == '3.14');
+  print(pi);
+}
