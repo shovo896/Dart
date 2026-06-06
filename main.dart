@@ -170,5 +170,12 @@ main(){
 }
 
 
+
+
+main(){
+  int num=0; 
+  print(num); // This will cause an error because 'num' is not initialized
+}
+
 */ 
 
