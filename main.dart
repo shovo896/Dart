@@ -84,7 +84,7 @@ void main() {
 void main(){
   dynamic  name = 'Shovo';
   print('My name is $name');
-}*/ 
+}
 
 void main(){
   var vars1='single quotes work well for string literals that contain double quotes, such as "Hello, World!"';
@@ -98,5 +98,8 @@ void main(){
   print(vars4);
   print(vars5);
 }
-
+*/ 
+void main(){
+  var s =r'In this raw string , not even \n will be treated as a newline character';
+}
 
