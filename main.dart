@@ -138,7 +138,7 @@ main(){
   assert(onePointOne == 10.1);
   print(onePointOne);
 }
-*/ 
+
 
 
 // showing value
@@ -148,4 +148,23 @@ main(){
   String pi=3.1416.toStringAsFixed(2);
   assert(pi == '3.14');
   print(pi);
+}
+
+*/ 
+
+main(){
+
+
+  const aConstNum=0 ;
+  const aConstBool=false;
+  const aConstString='Hello, Dart!';
+
+  print(aConstNum);
+  print(aConstBool);
+  print(aConstString);
+
+
+  print(aConstNum.runtimeType);
+  print(aConstBool.runtimeType);
+  print(aConstString.runtimeType);
 }
