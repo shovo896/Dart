@@ -488,7 +488,6 @@ void main(){
   }
 }
 
-*/ 
 
 void main(){
   var names = ['Alice', 'Bob', 'Charlie'];  // List <String> names = ['Alice', 'Bob', 'Charlie'];
@@ -496,7 +495,14 @@ void main(){
     print(n);
   }
 }
+*/ 
 
+void main(){
+  List<String> names = ['Alice', 'Bob', 'Charlie'];
+  for (var n in names){
+    print(n);
+  }
+}
 
 
 
