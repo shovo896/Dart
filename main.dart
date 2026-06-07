@@ -515,7 +515,13 @@ void main(){
   }
 }
 */ 
+void main(){
+  var halogens ={'flourine','chlorine','bromine','iodine','astatine'};
 
+  for (var x in halogens){
+    print(x);
+  }
+}
 
 
 
