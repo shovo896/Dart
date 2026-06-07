@@ -451,7 +451,6 @@ void main(){
     
   }
 }
-*/ 
 
 
 // list 
@@ -463,6 +462,18 @@ void main(){
   print(numbers[2]);
   print(numbers[3]);
   print(numbers[4]);
+}
+*/ 
+
+
+
+void main(){
+  // List 
+  List names = ['Alice', 'Bob', 'Charlie'];
+  print(names);
+  print(names[0]);
+  print(names[1]);
+  print(names[2]);
 }
 
 
