@@ -463,7 +463,7 @@ void main(){
   print(numbers[3]);
   print(numbers[4]);
 }
-*/ 
+
 
 
 
@@ -476,6 +476,25 @@ void main(){
   print(names[2]);
 
   print(names.length);
+}
+
+
+
+void main(){
+  var names = ['Alice', 'Bob', 'Charlie'];
+
+  for I(var n in names){
+    print(n);
+  }
+}
+
+*/ 
+
+void main(){
+  var names = ['Alice', 'Bob', 'Charlie'];  // List <String> names = ['Alice', 'Bob', 'Charlie'];
+  for (var n in names){
+    print(n);
+  }
 }
 
 
