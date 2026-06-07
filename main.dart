@@ -390,11 +390,22 @@ void main(){
   }
 }
 
-*/ 
 
-void mainI(){
+
+void main(){
   var numbers =[1,2,3];
   numbers.forEach((n)=>print(n));
+}
+
+*/
+
+
+void main(){
+  int num= 5 ;
+  while (num > 0){
+    print(num);
+    num--;
+  }
 }
 
 
