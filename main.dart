@@ -377,7 +377,7 @@ void main(){
     print(i);
   }
 }
-*/ 
+
 
 
 void main(){
@@ -388,6 +388,13 @@ void main(){
   for (var i = 0 ; i < numbers.length ; i++){
     print(numbers[i]);
   }
+}
+
+*/ 
+
+void mainI(){
+  var numbers =[1,2,3];
+  numbers.forEach((n)=>print(n));
 }
 
 
