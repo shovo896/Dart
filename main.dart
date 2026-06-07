@@ -370,11 +370,19 @@ void main(){
   }
 }
 
-*/ 
+
 
 void main(){
   for (var i =1 ; i <= 5 ; i++){
     print(i);
+  }
+}
+*/ 
+
+void main(){
+  var numbers = [1, 2, 3, 4, 5];
+  for (var number in numbers){
+    print(number);
   }
 }
 
