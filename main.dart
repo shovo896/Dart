@@ -407,7 +407,6 @@ void main(){
     num--;
   }
 }
-*/ 
 
 
 
@@ -418,6 +417,23 @@ void main (){
     num--;
   } while (num > 0);
 }
+
+
+void main(){
+  for(var i=0;i<10;i++){
+    if (i>5){
+      break;
+      print(i);
+    }
+    
+  }
+}
+
+*/ 
+
+
+
+
 
 
 
