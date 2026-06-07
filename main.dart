@@ -532,8 +532,20 @@ void main(){
 
 */ 
 
+void main(){
+  var gifts = {
+    'first': 'partridge',
+    'second': 'turtledoves',
+    'fifth': 'golden rings',
+  };
+  print(gifts);
+  print(gifts['first']);
+  print(gifts['second']);
+  print(gifts['fifth']);
+}
 
 
+  
 
 
 
