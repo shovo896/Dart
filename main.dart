@@ -340,7 +340,6 @@ void main(){
 
 
 }
-*/
 void main(){
   int number = 101 ;
   if (number %2 ==0){
@@ -352,6 +351,22 @@ void main(){
   else {
     print('confused');
   
+  }
+}
+*/ 
+
+
+void main(){
+  int number = 10000 ; 
+  switch(number){
+    case 100:
+      print('The number is 100');
+      break;
+    case 200:
+      print('The number is 200');
+      break;
+    default:
+      print('The number is neither 100 nor 200');
   }
 }
 
