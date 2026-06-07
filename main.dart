@@ -504,7 +504,7 @@ void main(){
   }
 }
 
-*/
+
 
 void main(){
   List <String> names =['jack','rose','john'];
@@ -514,6 +514,7 @@ void main(){
     print(n);
   }
 }
+*/ 
 
 
 
