@@ -379,12 +379,19 @@ void main(){
 }
 */ 
 
+
 void main(){
   var numbers = [1, 2, 3, 4, 5];
   for (var number in numbers){
     print(number);
   }
+  for (var i = 0 ; i < numbers.length ; i++){
+    print(numbers[i]);
+  }
 }
+
+
+
 
 
 
