@@ -495,10 +495,21 @@ void main(){
     print(n);
   }
 }
-*/ 
+
 
 void main(){
   List<String> names = ['Alice', 'Bob', 'Charlie'];
+  for (var n in names){
+    print(n);
+  }
+}
+
+*/
+
+void main(){
+  List <String> names =['jack','rose','john'];
+  var names2 = names ;
+  names[1]='michael';
   for (var n in names){
     print(n);
   }
