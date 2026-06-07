@@ -513,8 +513,9 @@ void main(){
   for (var n in names){
     print(n);
   }
-}
-*/ 
+}/// The ` is used to close a multi-line comment in Dart. Everything between `/*` and `*/` is
+/// considered a comment and will not be executed by the Dart compile
+
 void main(){
   var halogens ={'flourine','chlorine','bromine','iodine','astatine'};
 
@@ -522,6 +523,9 @@ void main(){
     print(x);
   }
 }
+*/ 
+
+
 
 
 
