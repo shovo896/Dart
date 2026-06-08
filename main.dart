@@ -581,7 +581,7 @@ void showOutput(){
   print('The square of 5 is ${square(5)}');
 }
 
-*/ 
+
 
 // annoynomous function
 
@@ -592,6 +592,16 @@ main(){
   });
 }
 
+*/ 
+
+void main(){
+  var list=['apples','oranges','grapes'];
+  list.forEach(print);
+}
+
+void printF(item){
+  print(item);
+}
 
 
 
