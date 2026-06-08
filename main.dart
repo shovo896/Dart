@@ -609,8 +609,15 @@ main(){
     print(item);
   }); 
 }
-*/ 
 
+
+void main(){
+  print(sum(2,2));
+}
+dynamic sum(var a, var b){
+  return a + b ;
+}
+*/ 
 
 
 
