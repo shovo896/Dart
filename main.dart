@@ -724,7 +724,7 @@ void letVerifyTheValue(var val){
 
 void main() {
   letVerifyTheValue(10);
-  letVerifyTheValue(-5);
+  letVerifyTheValue(0);
 }
 
 
