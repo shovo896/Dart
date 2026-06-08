@@ -720,6 +720,7 @@ void letVerifyTheValue(var val){
     finally {
       print('Value verification completed');
     }
+  }
 }
 
 
