@@ -602,13 +602,14 @@ void main(){
 void printF(item){
   print(item);
 }
-*/ 
+
 main(){
   var list=['apples','oranges','grapes'];
   list.forEach((item){
     print(item);
   }); 
 }
+*/ 
 
 
 
