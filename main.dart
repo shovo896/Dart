@@ -681,7 +681,7 @@ main(){
   print('Name: $name, Age: $age');
 }
 
-*/ 
+
 
 
 class Rectangle{
@@ -701,6 +701,11 @@ void main(){
   rect.right = 10;
   print('left: ${rect.left}, top: ${rect.top}, right: ${rect.right}, bottom: ${rect.bottom}');
 }
+
+*/ 
+
+
+
 
 
 
