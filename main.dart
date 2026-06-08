@@ -633,7 +633,23 @@ dynamic sum(var num1, [var num2]) => num1 + (num2 ?? 0);
 
 */ 
 
+// class 
 
+class Person{
+  String name ;
+  int age ;
+
+  Person(this.name, this.age);// constructor
+
+  void ShowOutput(){
+    print('Name: $name, Age: $age');
+  }
+}
+
+void main(){
+  Person person1 = Person('Shovo', 25);
+  person1.ShowOutput();
+}
 
 
 
