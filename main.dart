@@ -547,6 +547,18 @@ void main(){
 */ 
 
 
+void main(){
+  // map 
+  var gifts = {
+    'first': 'partridge',
+    'second': 'turtledoves',
+    'fifth': 'golden rings',
+  };
+  print(gifts);
+  print(gifts['first']);
+  print(gifts['second']);
+  print(gifts['fifth']);  
+}
   
 
 
