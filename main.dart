@@ -651,7 +651,7 @@ void main(){
   person1.ShowOutput();
 }
 
-*/ 
+
 
 // named constructor
 class Person{
@@ -672,6 +672,14 @@ void main(){
 
   Person guest = Person.guest();
   guest.ShowOutput();
+}
+
+*/ 
+
+main(){
+  final name = 'Shovo';
+  const age = 30 ;
+  print('Name: $name, Age: $age');
 }
 
 
