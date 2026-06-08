@@ -705,7 +705,22 @@ void main(){
 */ 
 
 
-
+int mustGreaterThanZero(int value){
+  if (value <= 0){
+    throw ArgumentError('Value must be greater than zero');
+  }
+  return value ;
+}
+void letVerifyTheValue(var val){
+  var valueVerification ;
+  try {
+    valueVerification = mustGreaterThanZero(val);
+  } catch (e){
+    print('Error: $e');
+    finally {
+      print('Value verification completed');
+    }
+}
 
 
 
