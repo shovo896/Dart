@@ -558,7 +558,7 @@ void main(){
   print(gifts['fifth']);  
 }
 
-*/ 
+
 
 //function
 void main(){
@@ -580,6 +580,21 @@ void main(){
 void showOutput(){
   print('The square of 5 is ${square(5)}');
 }
+
+*/ 
+
+// annoynomous function
+
+main(){
+  var list = ['apples','oranges','grapes'];
+  list.forEach((item){
+    print(item);
+  });
+}
+
+
+
+
 
 
 
