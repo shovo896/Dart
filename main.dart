@@ -717,10 +717,14 @@ void letVerifyTheValue(var val){
     valueVerification = mustGreaterThanZero(val);
   } catch (e){
     print('Error: $e');
-    finally {
-      print('Value verification completed');
-    }
+  } finally {
+    print('Value verification completed');
   }
+}
+
+void main() {
+  letVerifyTheValue(10);
+  letVerifyTheValue(-5);
 }
 
 
