@@ -544,8 +544,6 @@ void main(){
   print(gifts['fifth']);
 }
 
-*/ 
-
 
 void main(){
   // map 
@@ -559,7 +557,28 @@ void main(){
   print(gifts['second']);
   print(gifts['fifth']);  
 }
+
+*/ 
+
+//function
+void main(){
+  showOutput(square(5));
+  showOutput(square(10));
+  print.runtimeType;
+
+
+
+
+
+}
+
+dynamic square(var num){
+  return num * num ;
+}
   
+void showOutput(){
+  print('The square of 5 is ${square(5)}');
+}
 
 
 
