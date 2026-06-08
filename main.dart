@@ -572,9 +572,10 @@ void main(){
 
 }
 
-dynamic square(var num){
-  return num * num ;
-}
+///dynamic square(var num){
+//return num * num ;
+ dynamic square(var num) => num * num ;
+
   
 void showOutput(){
   print('The square of 5 is ${square(5)}');
